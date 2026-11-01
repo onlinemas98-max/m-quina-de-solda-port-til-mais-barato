@@ -1,0 +1,1162 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>máquina de solda portátil mais barato</title>
+
+  <meta name="description" content="Encontre máquina de solda portátil mais barato. Compare modelos, conheça opções inversoras, MIG, 110V e 220V e veja dicas para escolher.">
+
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Guia da Máquina de Solda">
+  <meta name="theme-color" content="#198754">
+
+  <style>
+    :root {
+      --verde: #198754;
+      --verde-escuro: #146c43;
+      --verde-claro: #e9f7ef;
+      --verde-suave: #f3fbf5;
+      --texto: #25352b;
+      --cinza: #66736b;
+      --branco: #ffffff;
+      --borda: #dce9df;
+      --sombra: 0 5px 20px rgba(20, 108, 67, .07);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 90px;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7fbf8;
+      color: var(--texto);
+      line-height: 1.7;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: 92%;
+      max-width: 1160px;
+      margin: auto;
+    }
+
+    /* CABEÇALHO */
+
+    header {
+      background: var(--branco);
+      border-bottom: 1px solid var(--borda);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .header-content {
+      min-height: 75px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--verde-escuro);
+      font-size: 21px;
+      font-weight: bold;
+    }
+
+    .logo-icon {
+      width: 42px;
+      height: 42px;
+      background: var(--verde);
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 23px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 23px;
+    }
+
+    nav a {
+      font-size: 14px;
+      font-weight: 600;
+      color: #46564b;
+      transition: .2s;
+    }
+
+    nav a:hover {
+      color: var(--verde);
+    }
+
+    .menu-btn {
+      display: none;
+      background: var(--verde);
+      color: white;
+      border: none;
+      padding: 9px 13px;
+      border-radius: 7px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    /* PRIMEIRA DOBRA */
+
+    .hero {
+      padding: 65px 0;
+      background: linear-gradient(120deg, #e7f7ec, #f7fcf8);
+    }
+
+    .hero-content {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      align-items: center;
+      gap: 45px;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 6px 13px;
+      background: #d4efdd;
+      color: var(--verde-escuro);
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 30px;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: clamp(30px, 4vw, 43px);
+      line-height: 1.2;
+      color: #174b31;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 16px;
+      color: #526358;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 22px;
+      background: var(--verde);
+      color: white;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 14px;
+      transition: .2s;
+      text-align: center;
+    }
+
+    .btn:hover {
+      background: var(--verde-escuro);
+      transform: translateY(-2px);
+    }
+
+    .btn-outline {
+      background: white;
+      color: var(--verde-escuro);
+      border: 1px solid var(--verde);
+      margin-left: 8px;
+    }
+
+    .btn-outline:hover {
+      color: white;
+    }
+
+    /* IMAGEM ILUSTRATIVA */
+
+    .hero-image {
+      min-height: 320px;
+      background: white;
+      border: 1px solid var(--borda);
+      border-radius: 18px;
+      box-shadow: var(--sombra);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      overflow: hidden;
+    }
+
+    .hero-image svg {
+      width: 100%;
+      max-width: 420px;
+      height: auto;
+    }
+
+    /* SEÇÕES */
+
+    section {
+      padding: 65px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      max-width: 750px;
+      margin: 0 auto 35px;
+    }
+
+    .section-title h2 {
+      color: #174b31;
+      font-size: 29px;
+      line-height: 1.3;
+      margin-bottom: 12px;
+    }
+
+    .section-title p {
+      color: var(--cinza);
+      font-size: 15px;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .content h2 {
+      color: #174b31;
+      font-size: 25px;
+      margin: 30px 0 12px;
+    }
+
+    .content h3 {
+      color: var(--verde-escuro);
+      font-size: 19px;
+      margin: 24px 0 10px;
+    }
+
+    .content p {
+      color: #526358;
+      margin-bottom: 16px;
+    }
+
+    /* CATEGORIAS */
+
+    .categories {
+      background: white;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid var(--borda);
+      border-radius: 12px;
+      padding: 23px;
+      box-shadow: var(--sombra);
+      transition: .2s;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #a7d9b7;
+    }
+
+    .card-icon {
+      width: 45px;
+      height: 45px;
+      border-radius: 10px;
+      background: var(--verde-claro);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 22px;
+      margin-bottom: 14px;
+    }
+
+    .card h3 {
+      font-size: 17px;
+      line-height: 1.4;
+      color: #174b31;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 13px;
+      color: var(--cinza);
+      margin-bottom: 17px;
+    }
+
+    .card-link {
+      color: var(--verde);
+      font-weight: bold;
+      font-size: 13px;
+      margin-top: auto;
+    }
+
+    /* BLOCOS DE CONTEÚDO */
+
+    .info-box {
+      background: var(--verde-suave);
+      border-left: 4px solid var(--verde);
+      padding: 20px;
+      border-radius: 8px;
+      margin: 22px 0;
+    }
+
+    .info-box p {
+      margin: 0;
+    }
+
+    .check-list {
+      padding-left: 22px;
+      color: #526358;
+      margin-bottom: 20px;
+    }
+
+    .check-list li {
+      margin-bottom: 10px;
+    }
+
+    .affiliate-box {
+      background: #e9f7ef;
+      border: 1px solid #cce8d5;
+      padding: 30px;
+      border-radius: 14px;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .affiliate-box h2 {
+      color: #174b31;
+      margin-bottom: 12px;
+    }
+
+    .affiliate-box p {
+      color: #526358;
+      margin-bottom: 20px;
+    }
+
+    /* FAQ */
+
+    .faq {
+      background: white;
+    }
+
+    .faq-list {
+      max-width: 850px;
+      margin: auto;
+    }
+
+    details {
+      background: #f7fbf8;
+      border: 1px solid var(--borda);
+      border-radius: 9px;
+      margin-bottom: 12px;
+      padding: 17px 20px;
+    }
+
+    summary {
+      font-weight: bold;
+      color: #174b31;
+      cursor: pointer;
+    }
+
+    details p {
+      color: var(--cinza);
+      margin-top: 12px;
+      font-size: 14px;
+    }
+
+    /* RODAPÉ */
+
+    footer {
+      background: #173f2a;
+      color: white;
+      padding: 40px 0 20px;
+    }
+
+    .footer-content {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 35px;
+      margin-bottom: 30px;
+    }
+
+    footer h3 {
+      margin-bottom: 12px;
+      font-size: 18px;
+    }
+
+    footer p {
+      color: #d3e5d8;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .footer-links a {
+      color: #d3e5d8;
+      font-size: 13px;
+    }
+
+    .footer-links a:hover {
+      color: white;
+      text-decoration: underline;
+    }
+
+    .copyright {
+      border-top: 1px solid #3c654b;
+      padding-top: 18px;
+      text-align: center;
+      font-size: 12px;
+      color: #c7d9cc;
+    }
+
+    /* VOLTAR AO TOPO */
+
+    .top-button {
+      position: fixed;
+      bottom: 22px;
+      right: 20px;
+      width: 45px;
+      height: 45px;
+      background: var(--verde);
+      color: white;
+      border: none;
+      border-radius: 50%;
+      font-size: 22px;
+      cursor: pointer;
+      box-shadow: 0 3px 12px rgba(0,0,0,.2);
+      display: none;
+      z-index: 999;
+    }
+
+    .top-button.show {
+      display: block;
+    }
+
+    /* RESPONSIVIDADE */
+
+    @media (max-width: 850px) {
+      .hero-content {
+        grid-template-columns: 1fr;
+      }
+
+      .cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .hero-image {
+        min-height: 260px;
+      }
+    }
+
+    @media (max-width: 650px) {
+      .header-content {
+        min-height: 68px;
+      }
+
+      .menu-btn {
+        display: block;
+      }
+
+      nav {
+        display: none;
+        position: absolute;
+        top: 68px;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        border-bottom: 1px solid var(--borda);
+      }
+
+      nav.active {
+        display: flex;
+      }
+
+      .hero {
+        padding: 42px 0;
+      }
+
+      .hero-content {
+        gap: 25px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 45px 0;
+      }
+
+      .section-title h2 {
+        font-size: 24px;
+      }
+
+      .footer-content {
+        grid-template-columns: 1fr;
+      }
+
+      .btn-outline {
+        margin: 10px 0 0;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Guia da Máquina de Solda",
+    "inLanguage": "pt-BR",
+    "description": "Diretório informativo sobre máquinas de solda portáteis, inversoras e MIG."
+  }
+  </script>
+
+</head>
+
+<body>
+
+  <!-- CABEÇALHO -->
+
+  <header>
+    <div class="container header-content">
+
+      <a href="index.html" class="logo">
+        <span class="logo-icon">⚡</span>
+        <span>Guia da Solda</span>
+      </a>
+
+      <button class="menu-btn" onclick="toggleMenu()" aria-label="Abrir menu">
+        ☰
+      </button>
+
+      <nav id="menu">
+        <a href="index.html">Início</a>
+        <a href="#guias">Guias de compra</a>
+        <a href="#como-escolher">Como escolher</a>
+        <a href="#dicas">Dicas</a>
+        <a href="#faq">Perguntas frequentes</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- PRIMEIRA DOBRA -->
+
+    <section class="hero">
+      <div class="container hero-content">
+
+        <div>
+
+          <span class="tag">GUIA DE COMPRA E COMPARAÇÃO</span>
+
+          <h1>máquina de solda portátil mais barato</h1>
+
+          <p>
+            Está procurando uma máquina de solda portátil com bom preço?
+            Conheça diferentes modelos, entenda as características de cada
+            equipamento e descubra o que observar antes de comprar.
+          </p>
+
+          <a href="#guias" class="btn">
+            Explorar os modelos
+          </a>
+
+          <a href="#como-escolher" class="btn btn-outline">
+            Como escolher
+          </a>
+
+        </div>
+
+        <!-- ILUSTRAÇÃO FICTÍCIA: SUBSTITUA DEPOIS POR SUA IMAGEM -->
+
+        <div class="hero-image">
+
+          <svg viewBox="0 0 440 300" xmlns="http://www.w3.org/2000/svg"
+               role="img" aria-label="Ilustração fictícia de uma máquina de solda portátil">
+
+            <rect x="70" y="55" width="300" height="190"
+                  rx="24" fill="#e9f7ef"/>
+
+            <rect x="115" y="95" width="210" height="125"
+                  rx="15" fill="#198754"/>
+
+            <rect x="145" y="115" width="150" height="65"
+                  rx="7" fill="#173f2a"/>
+
+            <rect x="164" y="130" width="45" height="28"
+                  rx="4" fill="#b8f2c9"/>
+
+            <rect x="222" y="130" width="45" height="28"
+                  rx="4" fill="#b8f2c9"/>
+
+            <circle cx="180" cy="195" r="10" fill="#d9e9dd"/>
+            <circle cx="260" cy="195" r="10" fill="#d9e9dd"/>
+
+            <path d="M150 95 L170 65 L270 65 L290 95"
+                  fill="none" stroke="#146c43" stroke-width="12"
+                  stroke-linecap="round"/>
+
+            <path d="M325 150 C370 150 375 210 345 225"
+                  fill="none" stroke="#444" stroke-width="8"
+                  stroke-linecap="round"/>
+
+            <path d="M345 225 L360 242 L375 225"
+                  fill="none" stroke="#444" stroke-width="7"
+                  stroke-linecap="round"/>
+
+            <path d="M90 235 L60 255 M350 255 L380 275"
+                  stroke="#198754" stroke-width="5"
+                  stroke-linecap="round"/>
+
+            <text x="220" y="280" text-anchor="middle"
+                  fill="#146c43" font-size="13"
+                  font-weight="bold">
+              MÁQUINA DE SOLDA PORTÁTIL
+            </text>
+
+          </svg>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- APRESENTAÇÃO -->
+
+    <section>
+      <div class="container content">
+
+        <h2>Encontre uma máquina de solda portátil para sua necessidade</h2>
+
+        <p>
+          As máquinas de solda portáteis são procuradas por profissionais,
+          serralheiros, pequenos empreendedores e pessoas que realizam
+          trabalhos de manutenção. Seu tamanho compacto facilita o transporte
+          e pode ser uma vantagem para quem precisa trabalhar em diferentes
+          locais.
+        </p>
+
+        <p>
+          Entretanto, encontrar uma máquina de solda portátil mais barato
+          não significa escolher simplesmente o menor preço. É importante
+          observar a potência, o tipo de soldagem, a tensão elétrica,
+          o ciclo de trabalho e os materiais que serão utilizados.
+        </p>
+
+        <p>
+          Neste diretório você encontra guias específicos para comparar
+          equipamentos, conhecer tecnologias de soldagem e avaliar
+          características importantes antes de realizar sua compra.
+        </p>
+
+        <div class="info-box">
+          <p>
+            <strong>Dica:</strong> antes de comprar, verifique se o equipamento
+            atende à sua aplicação e se a rede elétrica do local é compatível
+            com as especificações informadas pelo fabricante.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DIRETÓRIO / CLUSTER -->
+
+    <section class="categories" id="guias">
+
+      <div class="container">
+
+        <div class="section-title">
+
+          <h2>Guias de máquinas de solda portátil</h2>
+
+          <p>
+            Explore nossos conteúdos e encontre informações sobre preços,
+            modelos, tecnologias e características dos equipamentos.
+          </p>
+
+        </div>
+
+        <div class="cards">
+
+          <article class="card">
+            <div class="card-icon">🏆</div>
+            <h3>máquina de solda portátil mais vendida</h3>
+            <p>
+              Conheça os aspectos que ajudam a avaliar modelos populares,
+              características e procura dos equipamentos.
+            </p>
+            <a class="card-link" href="maquina-de-solda-portatil-mais-vendida.html">
+              Acessar guia →
+            </a>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">⚡</div>
+            <h3>máquina de solda portátil 110v 220v promoção</h3>
+            <p>
+              Entenda as diferenças de tensão e o que verificar
+              ao procurar ofertas de máquinas de solda.
+            </p>
+            <a class="card-link" href="maquina-de-solda-portatil-110v-220v-promocao.html">
+              Acessar guia →
+            </a>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">🔧</div>
+            <h3>qual a melhor máquina de solda inversora portátil</h3>
+            <p>
+              Descubra quais características observar na escolha
+              de uma máquina inversora portátil.
+            </p>
+            <a class="card-link" href="melhor-maquina-de-solda-inversora-portatil.html">
+              Acessar guia →
+            </a>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">🛠️</div>
+            <h3>qual a melhor máquina de solda mig para iniciantes</h3>
+            <p>
+              Conheça o funcionamento da soldagem MIG e os pontos
+              importantes para quem está começando.
+            </p>
+            <a class="card-link" href="melhor-maquina-de-solda-mig-para-iniciantes.html">
+              Acessar guia →
+            </a>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">💰</div>
+            <h3>qual a melhor máquina de solda inversora custo benefício</h3>
+            <p>
+              Saiba como comparar preço, recursos, capacidade
+              e qualidade de construção.
+            </p>
+            <a class="card-link" href="melhor-maquina-de-solda-inversora-custo-beneficio.html">
+              Acessar guia →
+            </a>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">🔥</div>
+            <h3>qual a melhor máquina de solda para soldar alumínio</h3>
+            <p>
+              Entenda por que o tipo de equipamento e o processo
+              de soldagem fazem diferença no alumínio.
+            </p>
+            <a class="card-link" href="melhor-maquina-de-solda-para-soldar-aluminio.html">
+              Acessar guia →
+            </a>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">🔌</div>
+            <h3>máquina de solda portátil 110v 220v qual a melhor</h3>
+            <p>
+              Compare equipamentos bivolt e modelos de tensão específica
+              antes de escolher.
+            </p>
+            <a class="card-link" href="maquina-de-solda-portatil-110v-220v-qual-a-melhor.html">
+              Acessar guia →
+            </a>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- COMO ESCOLHER -->
+
+    <section id="como-escolher">
+
+      <div class="container content">
+
+        <h2>Como escolher uma máquina de solda portátil?</h2>
+
+        <p>
+          A escolha de uma máquina de solda depende principalmente
+          do tipo de serviço que você pretende realizar. Existem
+          diferentes tecnologias e capacidades, e cada uma atende
+          a determinadas aplicações.
+        </p>
+
+        <h3>1. Verifique a tensão elétrica</h3>
+
+        <p>
+          Antes de comprar, confira se o equipamento trabalha em 110V,
+          127V, 220V ou se possui seleção bivolt. Também verifique
+          a tensão real disponível na instalação elétrica.
+        </p>
+
+        <h3>2. Conheça o processo de soldagem</h3>
+
+        <p>
+          Equipamentos MMA, MIG/MAG e TIG possuem características
+          diferentes. A escolha deve considerar o material, a espessura
+          das peças, o acabamento desejado e o tipo de trabalho.
+        </p>
+
+        <h3>3. Observe a amperagem</h3>
+
+        <p>
+          A faixa de corrente influencia os tipos de eletrodos e
+          aplicações possíveis. Não avalie apenas a amperagem máxima:
+          confira também a faixa de regulagem e as condições de operação.
+        </p>
+
+        <h3>4. Confira o ciclo de trabalho</h3>
+
+        <p>
+          O ciclo de trabalho indica por quanto tempo a máquina pode
+          soldar dentro de um período determinado, em determinada
+          corrente, antes de precisar de uma pausa para resfriamento.
+        </p>
+
+        <h3>5. Compare garantia e assistência</h3>
+
+        <p>
+          Verifique a garantia oferecida, a disponibilidade de peças,
+          a assistência técnica e a reputação do fabricante.
+          Esses fatores também fazem parte do custo-benefício.
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- TIPOS DE MÁQUINAS -->
+
+    <section id="dicas" class="categories">
+
+      <div class="container content">
+
+        <h2>Quais são os principais tipos de máquinas de solda?</h2>
+
+        <p>
+          Conhecer os processos de soldagem é uma etapa importante
+          antes de escolher um equipamento portátil. Veja algumas
+          das principais categorias encontradas no mercado.
+        </p>
+
+        <h3>Máquina de solda inversora MMA</h3>
+
+        <p>
+          É utilizada principalmente na soldagem com eletrodos revestidos.
+          Muitos modelos são compactos e indicados para diferentes
+          atividades de manutenção e serralheria.
+        </p>
+
+        <h3>Máquina de solda MIG/MAG</h3>
+
+        <p>
+          Utiliza alimentação contínua de arame e gás de proteção,
+          conforme o processo e o equipamento. É bastante utilizada
+          em trabalhos que exigem produtividade e cordões de solda
+          contínuos.
+        </p>
+
+        <h3>Máquina de solda TIG</h3>
+
+        <p>
+          Utiliza um eletrodo de tungstênio não consumível e permite
+          obter soldas com controle e acabamento específicos.
+          É utilizada em diferentes aplicações, dependendo do material.
+        </p>
+
+        <div class="info-box">
+          <p>
+            <strong>Atenção:</strong> soldar alumínio exige processo,
+            equipamento e preparação adequados. Uma inversora MMA comum
+            não é automaticamente indicada para essa finalidade.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- AFILIADOS -->
+
+    <section id="ofertas">
+
+      <div class="container">
+
+        <div class="affiliate-box">
+
+          <h2>Confira opções de máquinas de solda</h2>
+
+          <p>
+            Consulte preços, características e condições de compra
+            em lojas parceiras. Compare as informações antes de decidir.
+          </p>
+
+          <!-- SUBSTITUA O LINK ABAIXO PELO SEU LINK DE AFILIADO -->
+
+          <a
+            href="SEU_LINK_DE_AFILIADO_AQUI"
+            class="btn"
+            target="_blank"
+            rel="nofollow sponsored noopener"
+          >
+            Ver ofertas e preços
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- FAQ -->
+
+    <section class="faq" id="faq">
+
+      <div class="container">
+
+        <div class="section-title">
+
+          <h2>Perguntas frequentes sobre máquinas de solda portátil</h2>
+
+          <p>
+            Tire algumas dúvidas importantes antes de escolher
+            seu equipamento.
+          </p>
+
+        </div>
+
+        <div class="faq-list">
+
+          <details>
+            <summary>Qual máquina de solda portátil é mais barata?</summary>
+            <p>
+              O preço varia conforme marca, amperagem, tecnologia
+              e recursos. Compare equipamentos que atendam à sua
+              necessidade, sem escolher somente pelo menor valor.
+            </p>
+          </details>
+
+          <details>
+            <summary>Qual a diferença entre máquina de solda 110V e 220V?</summary>
+            <p>
+              A diferença está na tensão elétrica de alimentação.
+              Cada equipamento deve ser utilizado de acordo com
+              as especificações do fabricante e da instalação elétrica.
+            </p>
+          </details>
+
+          <details>
+            <summary>Máquina de solda portátil bivolt vale a pena?</summary>
+            <p>
+              Pode ser uma opção interessante para quem trabalha
+              em locais com diferentes tensões. Verifique se o modelo
+              é realmente bivolt e como funciona sua seleção de tensão.
+            </p>
+          </details>
+
+          <details>
+            <summary>Qual a diferença entre solda inversora e MIG?</summary>
+            <p>
+              A inversora MMA normalmente utiliza eletrodo revestido,
+              enquanto a MIG/MAG utiliza alimentação de arame contínuo.
+              São processos diferentes, com aplicações específicas.
+            </p>
+          </details>
+
+          <details>
+            <summary>É possível soldar alumínio com máquina portátil?</summary>
+            <p>
+              Sim, dependendo do processo e do equipamento. A soldagem
+              de alumínio pode exigir MIG apropriada ou TIG com corrente
+              alternada (AC), além dos acessórios e consumíveis corretos.
+            </p>
+          </details>
+
+          <details>
+            <summary>O que observar antes de comprar uma máquina de solda?</summary>
+            <p>
+              Verifique tensão, corrente, ciclo de trabalho, processo
+              de soldagem, materiais compatíveis, garantia e assistência
+              técnica.
+            </p>
+          </details>
+
+          <details>
+            <summary>Uma máquina de solda portátil serve para uso profissional?</summary>
+            <p>
+              Alguns modelos são adequados para determinadas aplicações
+              profissionais. É necessário verificar a capacidade,
+              o ciclo de trabalho e as exigências do serviço.
+            </p>
+          </details>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-content">
+
+        <div>
+
+          <h3>Guia da Solda</h3>
+
+          <p>
+            Diretório informativo sobre máquinas de solda portáteis.
+            Nosso objetivo é ajudar visitantes a conhecer equipamentos,
+            comparar características e encontrar opções de compra.
+          </p>
+
+          <p>
+            <strong>Transparência:</strong> trabalhamos como afiliados.
+            Podemos receber uma pequena comissão pelas compras realizadas
+            através de links de afiliados, sem custo adicional para você.
+          </p>
+
+        </div>
+
+        <div>
+
+          <h3>Navegação</h3>
+
+          <div class="footer-links">
+
+            <a href="index.html">Página inicial</a>
+
+            <a href="#guias">Guias de compra</a>
+
+            <a href="#como-escolher">Como escolher</a>
+
+            <a href="#faq">Perguntas frequentes</a>
+
+            <a href="#ofertas">Ofertas e preços</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="copyright">
+
+        <p>
+          © <span id="ano"></span> Guia da Solda.
+          Todos os direitos reservados.
+        </p>
+
+        <p>
+          Este site participa de programas de afiliados.
+          Os preços e condições são definidos pelas lojas parceiras.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- BOTÃO VOLTAR AO TOPO -->
+
+  <button
+    class="top-button"
+    id="topButton"
+    onclick="voltarTopo()"
+    aria-label="Voltar ao topo"
+    title="Voltar ao topo"
+  >
+    ↑
+  </button>
+
+  <!-- JAVASCRIPT -->
+
+  <script>
+
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("active");
+    }
+
+    // Fecha o menu após clicar em um link
+
+    document.querySelectorAll("#menu a").forEach(function(link) {
+      link.addEventListener("click", function() {
+        document.getElementById("menu").classList.remove("active");
+      });
+    });
+
+    // Botão voltar ao topo
+
+    const topButton = document.getElementById("topButton");
+
+    window.addEventListener("scroll", function() {
+      if (window.scrollY > 350) {
+        topButton.classList.add("show");
+      } else {
+        topButton.classList.remove("show");
+      }
+    });
+
+    function voltarTopo() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
+
+    // Ano automático no rodapé
+
+    document.getElementById("ano").textContent =
+      new Date().getFullYear();
+
+  </script>
+
+</body>
+</html>
