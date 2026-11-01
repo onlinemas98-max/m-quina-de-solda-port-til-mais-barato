@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Máquina de solda portátil 110v 220v promoção - Guia Completo</title>
-  <meta name="description" content="Confira os melhores modelos de máquina de solda portátil 110v 220v promoção. Veja especificações, vantagens do sistema bivolt e onde comprar em oferta.">
+  <meta name="description" content="Confira os melhores modelos de máquina de solda portátil 110v 220v promoção. Veja especificações, vantagens do sistema bivolt, índice, prós e contras e onde comprar.">
   <meta name="robots" content="index, follow">
   
   <!-- Schema.org Data (FAQ & Produto) -->
@@ -61,6 +61,10 @@
       margin: 0;
       padding: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -168,7 +172,6 @@
       margin-bottom: 15px;
     }
 
-    /* Regra 2: Estrutura logo após H1 */
     .product-specs {
       background-color: var(--bg-light);
       border: 1px solid var(--border-color);
@@ -227,7 +230,7 @@
       background-color: var(--accent-bg);
     }
 
-    /* Imagens Fictícias Quadradas (Regra 3) */
+    /* Imagens Fictícias Quadradas */
     .imagem-produto {
       width: 100%;
       max-width: 400px;
@@ -241,14 +244,85 @@
       box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     }
 
+    /* Índice (Sumário) */
+    .indice-box {
+      background: var(--bg-white);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 25px;
+      margin: 30px 0;
+    }
+
+    .indice-box h3 {
+      color: var(--primary);
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+
+    .indice-box ul {
+      list-style-type: decimal;
+      margin-left: 20px;
+      color: var(--text-muted);
+    }
+
+    .indice-box li {
+      margin-bottom: 8px;
+    }
+
+    .indice-box a {
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    .indice-box a:hover {
+      text-decoration: underline;
+    }
+
     /* Caixas de Destaque */
     .highlight-box {
       background-color: var(--accent-bg);
       border-left: 4px solid var(--primary);
       border-radius: var(--radius);
       padding: 20px;
-      margin: 40px 0;
+      margin: 30px 0;
       font-size: 0.95rem;
+    }
+
+    /* Grid de Prós e Contras */
+    .pros-cons-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin: 30px 0;
+    }
+
+    .pros-card, .cons-card {
+      background: var(--bg-white);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+
+    .pros-card h3 {
+      color: #2b9348;
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+    }
+
+    .cons-card h3 {
+      color: #d90429;
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+    }
+
+    .pros-card ul, .cons-card ul {
+      margin-left: 20px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    .pros-card li, .cons-card li {
+      margin-bottom: 8px;
     }
 
     /* Grid de Guias / Produtos */
@@ -303,19 +377,49 @@
       padding: 40px;
       border-radius: var(--radius);
       border: 1px solid var(--border-color);
-      margin-bottom: 50px;
+      margin-bottom: 40px;
     }
 
     .content-section h2 {
       color: var(--primary);
       font-size: 1.4rem;
-      margin: 20px 0 10px 0;
+      margin: 25px 0 15px 0;
+    }
+
+    .content-section p {
+      color: var(--text-muted);
+      margin-bottom: 15px;
     }
 
     .content-section ol, .content-section ul {
       margin-left: 20px;
       margin-bottom: 15px;
       color: var(--text-muted);
+    }
+
+    .content-section li {
+      margin-bottom: 8px;
+    }
+
+    /* Botão Voltar ao Início */
+    .back-to-top-container {
+      text-align: center;
+      margin: 30px 0 50px 0;
+    }
+
+    .btn-top {
+      display: inline-block;
+      background-color: var(--primary);
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: var(--radius);
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+
+    .btn-top:hover {
+      background-color: var(--primary-hover);
     }
 
     /* Rodapé */
@@ -334,8 +438,12 @@
         grid-template-columns: 1fr;
       }
       
+      .pros-cons-grid {
+        grid-template-columns: 1fr;
+      }
+      
       nav ul {
-        display: none; /* Simplificação para mobile */
+        display: none;
       }
 
       h1 {
@@ -358,17 +466,18 @@
   <!-- Cabeçalho -->
   <header>
     <div class="container header-content">
-      <a href="#" class="logo">
+      <a href="#inicio" class="logo">
         <span class="logo-icon"></span>
         <span>Guia da Solda</span>
       </a>
       <nav>
         <ul>
           <li><a href="#inicio">Início</a></li>
+          <li><a href="#indice">Índice</a></li>
           <li><a href="#guias">Guias de compra</a></li>
-          <li><a href="#comparar">Comparar</a></li>
+          <li><a href="#pros-contras">Prós e Contras</a></li>
           <li><a href="#dicas">Dicas</a></li>
-          <li><a href="#faq">Perguntas Frequentes</a></li>
+          <li><a href="#faq">FAQ</a></li>
         </ul>
       </nav>
     </div>
@@ -381,17 +490,17 @@
       <div class="hero-text">
         <span class="badge">LINHA INVERSORA PORTÁTIL</span>
         
-        <!-- H1 OBRIGATÓRIO (EXATAMENTE COMO FORNECIDO) -->
+        <!-- H1 OBRIGATÓRIO EXATO -->
         <h1>Máquina de solda portátil 110v 220v promoção</h1>
 
         <!-- DADOS DO PRODUTO (ELEMENTO 1 LOGO ABAIXO DO H1) -->
         <div class="product-specs">
           <strong>Principais especificações:</strong>
           <ul>
-            <li>Alimentação: Bivolt automático (110V / 220V)</li>
-            <li>Tecnologia: Inversora (IGBT) com alta eficiência energética</li>
-            <li>Ciclo de trabalho indicado para eletrodo revestido (MMA)</li>
-            <li>Peso reduzido e alça para transporte fácil</li>
+            <li>Alimentação: Bivolt automático ou chaveado (110V / 220V)</li>
+            <li>Tecnologia: Inversora de alta performance (IGBT)</li>
+            <li>Indicação: Trabalhos em serralheria, manutenção e hobby avançado</li>
+            <li>Portabilidade: Compacta, leve e com alça ergonômica</li>
           </ul>
         </div>
 
@@ -411,7 +520,7 @@
         </div>
       </div>
 
-      <!-- IMAGEM FICTÍCIA QUADRADA (REGRA 3) -->
+      <!-- IMAGEM FICTÍCIA QUADRADA -->
       <div class="hero-image">
         <img src="https://via.placeholder.com/400x400/e8f5e9/1b4332?text=MAQUINA+DE+SOLDA+1:1" alt="Máquina de solda portátil 110v 220v em promoção" class="imagem-produto">
       </div>
@@ -419,10 +528,23 @@
     </div>
   </main>
 
-  <!-- Caixa de Destaque -->
   <div class="container">
+    <!-- ÍNDICE DA PÁGINA -->
+    <div class="indice-box" id="indice">
+      <h3>Índice do Guia</h3>
+      <ul>
+        <li><a href="#sobre">Por que investir em uma máquina de solda portátil?</a></li>
+        <li><a href="#guias">Guias e modelos de máquinas de solda</a></li>
+        <li><a href="#pros-contras">Vantagens e Desvantagens (Prós e Contras)</a></li>
+        <li><a href="#dicas">Como escolher a amperagem e o ciclo ideal</a></li>
+        <li><a href="#manutencao">Cuidados e manutenção preventiva</a></li>
+        <li><a href="#faq">Perguntas Frequentes</a></li>
+      </ul>
+    </div>
+
+    <!-- Caixa de Destaque -->
     <div class="highlight-box">
-      <strong>Dica rápida de segurança e uso:</strong> Antes de ligar seu equipamento bivolt na tomada, verifique se a extensão utilizada suporta a amperagem da máquina para evitar quedas de tensão durante a soldagem.
+      <strong>Dica rápida de segurança e uso:</strong> Antes de ligar seu equipamento bivolt na tomada, verifique se a extensão utilizada suporta a amperagem correta para evitar quedas de tensão e proteger o circuito interno da máquina.
     </div>
   </div>
 
@@ -432,49 +554,88 @@
     
     <div class="grid-cards">
       <div class="card">
-        <!-- IMAGEM FICTÍCIA QUADRADA -->
         <img src="https://via.placeholder.com/400x400/e8f5e9/1b4332?text=MODELO+COMPACTO" alt="Máquina de solda bivolt compacta" class="imagem-produto" style="max-width: 150px; margin-bottom: 15px;">
         <h3>Inversora bivolt leve</h3>
-        <p>Entenda como funcionam os modelos de 2kg a 4kg ideais para serviços em altura e pequenos reparos.</p>
+        <p>Entenda como funcionam os modelos de 2kg a 4kg ideais para serviços em altura e pequenos reparos residenciais.</p>
         <a href="https://s.shopee.com.br/7KyCq7NrEk" rel="sponsored noopener noreferrer" target="_blank" class="card-link">ACESSAR GUIA &rarr;</a>
       </div>
 
       <div class="card">
-        <!-- IMAGEM FICTÍCIA QUADRADA -->
         <img src="https://via.placeholder.com/400x400/e8f5e9/1b4332?text=SOLDA+MIG+MMA" alt="Máquina de solda multi-processos" class="imagem-produto" style="max-width: 150px; margin-bottom: 15px;">
         <h3>Modelos Multi-processo</h3>
-        <p>Aprenda a diferença entre equipamentos que soldam TIG, MIG sem gás e Eletrodo em 110v e 220v.</p>
+        <p>Aprenda a diferença entre equipamentos que soldam TIG, MIG sem gás e Eletrodo revestido utilizando energia 110v e 220v.</p>
         <a href="https://s.shopee.com.br/7KyCq7NrEk" rel="sponsored noopener noreferrer" target="_blank" class="card-link">ACESSAR GUIA &rarr;</a>
       </div>
 
       <div class="card">
-        <!-- IMAGEM FICTÍCIA QUADRADA -->
         <img src="https://via.placeholder.com/400x400/e8f5e9/1b4332?text=KITS+E+ACESSORIOS" alt="Kit de solda portátil com máscara" class="imagem-produto" style="max-width: 150px; margin-bottom: 15px;">
         <h3>Kits completos em oferta</h3>
-        <p>Saiba o que observar nos acessórios inclusos, como escova de aço, garra negativa e alça de ombro.</p>
+        <p>Saiba o que observar nos acessórios inclusos nas promoções, como escova de aço, garra negativa, cabos e máscara de proteção.</p>
         <a href="https://s.shopee.com.br/7KyCq7NrEk" rel="sponsored noopener noreferrer" target="_blank" class="card-link">ACESSAR GUIA &rarr;</a>
       </div>
     </div>
   </section>
 
-  <!-- Seção de Conteúdo Textual SEO -->
-  <section class="container content-section" id="dicas">
-    <h2>Como escolher uma máquina de solda portátil?</h2>
-    <p>A escolha de um equipamento de soldagem portátil depende principalmente do tipo de serviço que você pretende realizar. Confira os passos essenciais:</p>
+  <!-- Seção de Conteúdo Textual Expandido com Prós e Contras -->
+  <section class="container content-section" id="sobre">
+    <h2>Por que investir em uma máquina de solda portátil?</h2>
+    <p>O mercado de ferramentas passou por uma verdadeira revolução com a chegada das tecnologias de inversores de solda baseadas em componentes IGBT. Se antes os profissionais dependiam de transformadores pesados, barulhentos e difíceis de transportar, hoje a realidade é completamente diferente. Com uma <strong>máquina de solda portátil 110v 220v promoção</strong>, você ganha autonomia total para realizar desde pequenos reparos domésticos de emergência até serviços contínuos em oficinas mecânicas e obras de serralheria.</p>
+    <p>A versatilidade do sistema bivolt elimina a principal dor de cabeça do operador: chegar a um local de trabalho e descobrir que a tomada disponível não corresponde à voltagem do equipamento. As placas eletrônicas inteligentes ajustam automaticamente o fluxo de energia ou permitem a comutação segura, garantindo estabilidade no arco elétrico independentemente de oscilações moderadas na rede elétrica.</p>
+
+    <h2 id="pros-contras">Vantagens e Desvantagens (Prós e Contras)</h2>
+    <p>Para ajudar na sua decisão de compra, organizamos os principais pontos positivos e limitações deste tipo de equipamento:</p>
+
+    <div class="pros-cons-grid">
+      <div class="pros-card">
+        <h3>Prós (Vantagens)</h3>
+        <ul>
+          <li><strong>Portabilidade extrema:</strong> Equipamentos leves (muitas vezes abaixo de 4kg), fáceis de carregar no ombro.</li>
+          <li><strong>Economia de energia:</strong> Tecnologia inversora consome significativamente menos energia que os transformadores tradicionais.</li>
+          <li><strong>Versatilidade Bivolt:</strong> Funciona tanto em tomadas de 110V quanto em 220V sem perda drástica de desempenho.</li>
+          <li><strong>Abertura de arco facilitada:</strong> Recursos como Hot Start e Arc Force evitam que o eletrodo grude na peça durante o início da solda.</li>
+          <li><strong>Custo-benefício:</strong> Modelos promocionais acessíveis para iniciantes e profissionais autônomos.</li>
+        </ul>
+      </div>
+
+      <div class="cons-card">
+        <h3>Contras (Limitações)</h3>
+        <ul>
+          <li><strong>Ciclo de trabalho limitado:</strong> Modelos muito compactos exigem pausas para resfriamento após uso intenso prolongado.</li>
+          <li><strong>Sensibilidade à umidade:</strong> Placas eletrônicas internas requerem cuidados contra poeira excessiva e ambientes úmidos.</li>
+          <li><strong>Potência restrita:</strong> Geralmente limitadas a eletrodos de até 3.25mm nos modelos de entrada de maior apelo comercial.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 id="dicas">Como escolher a amperagem e o ciclo ideal</h2>
+    <p>A escolha de um equipamento de soldagem portátil depende principalmente do tipo de serviço e da espessura do metal que você pretende unir. Confira os passos essenciais para acertar na escolha:</p>
     
     <ol>
-      <li><strong>Verifique a tensão elétrica:</strong> Equipamentos bivolt automáticos (110V/220V) garantem que você possa trabalhar em qualquer local sem preocupação com a tomada disponível.</li>
-      <li><strong>Ciclo de trabalho:</strong> Analise a porcentagem de tempo em que a máquina pode operar continuamente sem superaquecer.</li>
-      <li><strong>Amperagem:</strong> Para eletrodos comuns de 2.5mm, uma inversora de 120A a 160A atende perfeitamente a maioria dos trabalhos comerciais e caseiros.</li>
+      <li><strong>Verifique a tensão elétrica:</strong> Equipamentos bivolt automáticos garantem que você possa trabalhar em qualquer local sem preocupação com a tomada disponível no canteiro de obras ou residência.</li>
+      <li><strong>Analise o ciclo de trabalho:</strong> O ciclo indica quantos minutos, dentro de uma janela de 10 minutos, a máquina pode operar na potência máxima sem acionar a proteção térmica.</li>
+      <li><strong>Defina a faixa de amperagem:</strong> Para eletrodos comuns E6013 de 2.5mm, uma inversora de 120A a 140A atende perfeitamente. Se pretende utilizar eletrodos de 3.25mm com frequência, busque modelos acima de 160A.</li>
     </ol>
+
+    <h2 id="manutencao">Cuidados essenciais e manutenção preventiva</h2>
+    <p>Para garantir que sua máquina de solda dure por muitos anos, siga estas orientações básicas de conservação:</p>
+    <ul>
+      <li>Mantenha as ventoinhas de resfriamento livres de obstruções e poeira pesada.</li>
+      <li>Evite utilizar extensões elétricas muito longas e com fios finos, pois isso gera queda de tensão e força os componentes internos.</li>
+      <li>Guarde o equipamento em local seco e livre de umidade após o término dos trabalhos.</li>
+    </ul>
 
     <h2 id="faq">Perguntas Frequentes (FAQ)</h2>
     <p><strong>Posso ligar uma máquina de solda bivolt em geradores de energia?</strong><br>
-    Sim, desde que o gerador forneça a potência mínima recomendada pelo fabricante e tensão estabilizada.</p>
+    Sim, desde que o gerador forneça a potência mínima recomendada pelo fabricante (geralmente acima de 5kVA) e conte com estabilização de tensão adequada.</p>
     
     <p style="margin-top: 10px;"><strong>O que acompanha o produto na promoção?</strong><br>
-    Geralmente o kit básico inclui cabo com garra negativa, cabo porta-eletrodo e alça de transporte.</p>
+    Geralmente o kit básico inclui cabo com garra negativa, cabo porta-eletrodo, escova/picadeira de solda e alça de transporte reforçada.</p>
   </section>
+
+  <!-- Botão Voltar ao Início -->
+  <div class="container back-to-top-container">
+    <a href="#inicio" class="btn-top">&uarr; Voltar ao início da página</a>
+  </div>
 
   <!-- Rodapé -->
   <footer>
